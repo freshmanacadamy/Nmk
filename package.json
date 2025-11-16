@@ -1,0 +1,17 @@
+{
+  "name": "telegram-bot-vercel",
+  "version": "1.0.0",
+  "description": "Serverless Telegram Bot on Vercel",
+  "main": "api/bot.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "vercel": "^28.0.0"
+  }
+}
